@@ -1,0 +1,21 @@
+server:
+  domain: user
+  version: 1.0
+  jwtSecret: moe
+  grpcAddress: "127.0.0.1:10001"
+
+mysql:
+  driverName: mysql
+  host: 10.224.0.62
+  port: 31128
+  database: grpc_todolist_tmp
+  username: root
+  password: password
+  charset: utf8mb4
+
+
+etcd:
+  address: 
+
+redis:
+  address: 127.0.0.1:6379
